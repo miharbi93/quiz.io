@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Table Generator</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form</h1>
+  <h3>Links Generator</h3>
+  <form>
+    <label for="start">Start Range:</label>
+    <input type="text" id="start" value="1">
+    <label for="end">End Range:</label>
+    <input type="text" id="end" value="1">
+    <br>
+    <br>
+    <button type="button" onclick="myTable()">display Table</button>
+  </form>
+  <p id="rangeMessage"></p>
+  <table id="linkTable"></table>
+
+
+  <script src="links.js"></script>
+</body>
+</html>
